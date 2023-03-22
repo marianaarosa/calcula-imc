@@ -7,7 +7,7 @@ function calcularIMC() {
     return;
   }
 
-  altura = altura.replace(",", ".", " ");
+  altura = altura.replace(",", ".");
   const imc = peso / (altura * altura);
   document.getElementById("resultado").value = imc.toFixed(2);
 
